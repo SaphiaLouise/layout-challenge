@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	background-color: pink;
+	border: 5px solid black;
+	height: 200px;
+}
+
+header, footer {
+	height: 70px;
+}
+
+header{
+	margin-bottom:30px;
+}
+
+footer{
+	margin-top: 30px;
+}
+
+.flex-middle {
+	display: flex;
+}
+
+.flex-middle .box{
+	height: 400px;
+	margin-left: 15px;
+}
+
+.flex-middle .box.top{
+	width: 50%;
+	margin: 0px;
+}
+
+.flex-middle .box.right {
+	width: 50%
+}
+
+.justify-content {
+	justify-content: space-between;
+}
